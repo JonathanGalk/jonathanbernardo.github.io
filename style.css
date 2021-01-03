@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    background-image: url("./image/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 40% 50%;
+}
+main {
+    width: 320px;
+    height: 90%;
+    margin-left: 2%;
+    position: absolute;
+    top: 50%; 
+    right: 50%;
+    transform: translate(50%,-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(139, 139, 139, 0.37);
+    border-radius: 20px;
+}
+main h1 {
+    padding: 10px;
+    margin: 10px;
+    color: #fff;
+    font-size: 3em;
+}
+.cabecalho {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2%;
+    padding: 2%;
+}
+.cabecalho img {
+    width: 70px;
+}
+.cabecalho h1 {
+    color: #fff;
+    padding: 2%;
+    font-size: 1.3em;
+}
+main a {
+    font-size: 2em;
+    color: #000;
+    transition: 0.3s;
+}
+main a:hover{
+    transform: scale(2);
+}
